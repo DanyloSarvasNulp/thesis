@@ -1,0 +1,15 @@
+path: ../thesis/dataset/dataset_split_with_other-birds
+train: train
+val: val
+test: test
+
+names:
+  0: pigeon
+  1: crow
+  2: other-bird
+  3: wood-pigeon
+  4: dove
+  5: magpie
+  6: jay
+  7: tit
+  8: thrush

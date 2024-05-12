@@ -1,0 +1,6 @@
+venv/
+dataset/*
+feed_analyzer/detections/*
+runs/*
+
+!dataset/csv_data

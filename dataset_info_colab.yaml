@@ -1,0 +1,14 @@
+path: ../drive/MyDrive/dataset/dataset_split_without_other-birds
+train: train
+val: val
+test: test
+
+names:
+  0: pigeon
+  1: crow
+  2: wood-pigeon
+  3: dove
+  4: magpie
+  5: jay
+  6: tit
+  7: thrush

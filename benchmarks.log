@@ -1,0 +1,32 @@
+
+Benchmarks complete for yolov8n.pt on dataset_info.yaml at imgsz=416 (650.64s)
+                   Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)
+0                 PyTorch       ✅        6.2               0.7336                   14.21
+1             TorchScript       ✅       11.9               0.7185                   11.88
+2                    ONNX       ✅       11.6               0.7185                   81.11
+3                OpenVINO       ❌        0.0                  NaN                     NaN
+4                TensorRT       ❎       13.8                  NaN                     NaN
+5                  CoreML       ❌        0.0                  NaN                     NaN
+6   TensorFlow SavedModel       ❌        0.0                  NaN                     NaN
+7     TensorFlow GraphDef       ❌        0.0                  NaN                     NaN
+8         TensorFlow Lite       ❌        0.0                  NaN                     NaN
+9     TensorFlow Edge TPU       ❌        0.0                  NaN                     NaN
+10          TensorFlow.js       ❌        0.0                  NaN                     NaN
+11           PaddlePaddle       ✅       23.2               0.7185                  170.02
+12                   NCNN       ✅       11.6               0.7185                   78.23
+
+Benchmarks complete for best.pt on dataset_info_with_other_birds.yaml at imgsz=416 (929.17s)
+                   Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)
+0                 PyTorch       ✅        5.9               0.7336                   46.57
+1             TorchScript       ✅       11.8               0.7185                   43.25
+2                    ONNX       ✅       11.6               0.7185                   54.92
+3                OpenVINO       ✅       11.7               0.7185                   31.69
+4                TensorRT       ❌        0.0                  NaN                     NaN
+5                  CoreML       ❌        0.0                  NaN                     NaN
+6   TensorFlow SavedModel       ❌        0.0                  NaN                     NaN
+7     TensorFlow GraphDef       ❌        0.0                  NaN                     NaN
+8         TensorFlow Lite       ❌        0.0                  NaN                     NaN
+9     TensorFlow Edge TPU       ❌        0.0                  NaN                     NaN
+10          TensorFlow.js       ❌        0.0                  NaN                     NaN
+11           PaddlePaddle       ✅       23.2               0.7185                  723.32
+12                   NCNN       ✅       11.6               0.7185                   45.51
